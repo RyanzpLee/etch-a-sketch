@@ -37,19 +37,20 @@ header {
     
 }
 .grid_container {
-    width: 320px;
-    height: 320px;
+    width: 640px;
+    height: 640px;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .grid_tile {
-
     display: inline-block;
     vertical-align: top;
     margin: 0;
     padding: 0;
-    height: 20px;
-    width: 20px;
+    height: 38px;
+    width: 38px;
+    border: 1px solid black;
 }
+
