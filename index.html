@@ -23,13 +23,16 @@
 
         <div class="grid">
             <div class="colours_container">
-                <p>Pick a colour</p>
-                <label for="colour">
-                    <input type="radio" checked name="colour" id="black" value="black">
-                    Black
-                </label>
-
-
+                
+                <div>
+                    <p>Pick a colour</p>
+                    <input type="color" id="colour" onchange="setColour(value)">
+                    
+                </div>
+                <div>
+                    <p>Grid Size <span id="sliderValue">16</span></p>
+                    <input type="range" min="2" max="32" value="16" id="slider" >
+                </div>
             </div>
             <div class="grid_container">
                 
