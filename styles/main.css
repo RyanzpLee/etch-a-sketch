@@ -1,0 +1,55 @@
+html {
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.btn_container {
+    position: relative;
+
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid {
+    margin-top: 1rem;
+    text-align: center;
+
+    
+}
+.grid_container {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.grid_tile {
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 20px;
+}
