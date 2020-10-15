@@ -26,7 +26,7 @@ function displaySliderValue() {}
 // Reset grid on click
 reset.addEventListener('click', () => {
   grid.innerHTML = '';
-  rows = 16
+
   createGrid();
 });
 
